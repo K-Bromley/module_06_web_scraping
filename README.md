@@ -13,3 +13,20 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 6) Histogram shown with appropriate labelling: 1 pt
 * (Question 7) Histogram shown with appropriate labelling: 1 pt
 * (Question 8) Thoughtful answer provided: 1 pt
+
+## Imported Libraries
+``` bash
+python3 -m pip install beautifulsoup4 html5lib ipykernel jupyterlab matplotlib requests spacy spacytextblob
+```
+
+## Formatting Spacy
+``` bash
+pip install -U pip spacy
+python3 -m spacy download en_core_web_sm
+```
+
+## Set-up Venv
+``` bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
